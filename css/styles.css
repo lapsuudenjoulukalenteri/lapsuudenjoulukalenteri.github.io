@@ -1,0 +1,229 @@
+/***** basic page elements *****/
+
+body {
+	padding: 0px;
+	margin: 0px;
+  	background: -webkit-linear-gradient(#155915, #218F21, #155915); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#155915, #218F21, #155915); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#155915, #218F21, #155915); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, #155915, #218F21, #155915);
+    height: 100%;
+    vertical-align: middle;
+} 
+.pagewrapper {
+	min-height: 100%;
+	margin-bottom: 40px;
+}
+
+/***** Header & navigation area *****/
+
+header {
+	background-color: #020202;
+	height: 40px;
+	top: 0px;
+	width: 100%;
+	border-bottom: 3px solid #155915;
+	position: fixed;
+}
+nav { 
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+ul {
+	padding: 0px;
+	margin:0px;
+	display: block;
+}
+li {
+	font-family: Verdana;
+	font-size: 16px;
+	color: #ffffff;
+	display: inline-block;	
+	text-align:center;
+	padding-top:10px;
+	width: 100px;	
+}
+li a {
+	color: #d0d0d0;	
+	text-decoration: none;
+	text-transform: uppercase;
+}
+li a:hover {
+	color: #ffffff;	
+}
+
+/***** Footer area *****/
+
+footer {
+	width: 100%;
+	height: 40px;
+	bottom: 0px;
+	left: 0px;
+	background-color: #020202;
+	border-top: 3px solid #155915;
+	position: fixed;
+}
+footer p {
+	font-family: Verdana, Tahoma, Arial, serif;
+	font-size: 11px;
+	color: #ffffff;
+	padding-right: 14px;
+	padding-top: 3px;
+	text-align: right;
+}
+
+/***** main page contents *****/
+
+.pagetitle {
+	margin-top: 62px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:32px;
+	width: 100%;
+}
+.pagetitle p {
+	text-align: center;
+	color: #eeeeee;
+	font-size: 20px;
+	font-family: cursive;
+	text-shadow: 1px 1px #155915;
+	margin-top:0px;
+	margin-bottom: -8px;
+	padding-bottom:0px;
+}
+h1 {
+	text-align: center;
+	color: #eeeeee;
+	font-size: 56px;
+	font-family: 'Irish Grover', cursive;
+	text-shadow: 3px 3px #155915;
+	margin-bottom:0px;
+}
+.calendarwrapper {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	background-image: url("../pics/taustakuva.png");
+	background-repeat: no-repeat;
+	margin-bottom: auto;
+	width: 550px;
+	height: 386px;
+	box-shadow: 6px 6px 6px #186618;
+}
+table {
+	border-spacing: 10px;
+	width:550px;
+	height:386px;
+}
+.calendarwindow {
+	width:80px;
+	height:80px;
+	font-size: 38px;
+	font-family: 'Irish Grover', Verdana, cursive;
+	text-shadow: 2px 2px #3f3f3f;
+	font-weight: bold;
+	color:#fff;
+	text-align: center;
+	border: 1px dashed #eeeeee;
+}
+.highlighted {
+	background-color: rgba(200,200,200,0.3);
+} 
+.socialwrapper {
+	margin-top:20px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+/***** Calendar window popup *****/
+
+.overlay {
+	background-color: #000000;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left:0px;
+	opacity: 0.85;
+	display:none;
+	vertical-align:middle;
+	position: fixed;
+}
+#windowpopup {
+	width:	70%;
+	margin-left: 15%;
+	position: absolute;
+	background-color: #000000;
+	border: solid 4px #ffffff;
+	border-radius: 6px;
+	display: none;
+	box-shadow: 6px 6px 6px;
+	min-width: 400px;
+}
+#windowimage {
+	width: 100%;
+}
+.arrowleft {
+	background-color: #2f2f2f;
+	margin-left: -54px;
+	width: 46px;
+	height:46px;
+	float: left;
+	padding-top:3px;
+	padding-left:4px;
+	border-radius:2px;
+}
+.arrowright {
+	background-color: #2f2f2f;
+	margin-right:-54px;
+	width: 46px;
+	height:46px;
+	float: right;
+	padding-top:3px;
+	padding-left:4px;
+	border-radius:2px;
+}
+.arrowhighlight {
+	background-color: #888888;
+}
+.flavourwrap {
+	width:100%;
+	display:table;
+	margin-top:-4px;
+}
+.flavourleft {
+	display: table-cell;
+	width:54px;
+	font-size: 24px;
+	font-family: 'Irish Grover', Verdana, cursive;
+	font-weight: bold;
+	color:#fff;
+	text-align: center;
+	vertical-align: middle;
+}
+.flavourmiddle {
+	text-align: center;
+	display:table-cell;
+}
+.flavourmiddle p {
+	font-size: 14px;
+	color: #fff;
+	font-family: Arial, Tahoma, serif;
+}
+.flavourright {
+	display: table-cell;
+	width:54px;
+	text-align: center;
+	vertical-align: middle;
+}
+#windowpopup .social {
+	float:right;
+	text-align: right;
+	margin-right:2px;
+	margin-top:-11px;
+}
+
+
+
+
