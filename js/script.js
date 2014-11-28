@@ -10,12 +10,6 @@ var windowsOpenedEarlier = "nnnnnnnnnnnnnnnnnnnnnnnn";
 var main = function (){
 	windowsOpenedEarlier = readCookie();
 
-	/*$.getScript("js/rot.js", function(){
-
-   		alert(rot("no"),-1);
-
-	});*/
-
 	/* Read calendar window pics and images */
 	$.getJSON("js/windows.json", function(data) {
 			jsonData = data;
@@ -35,7 +29,7 @@ var main = function (){
 		var mm = date.getMonth()+1;
 		var yyyy = date.getFullYear();
 
-		if (tryDate <= dd && mm == 12 && yyyy == 2014) { // NOTE: checking for NOV for test purposes!
+		if (tryDate <= dd && mm == 12 && yyyy == 2014) { 
 			$(".overlay").fadeIn(500);
 			openWindow(tryDate);
 		}
@@ -60,10 +54,13 @@ var main = function (){
 
 /* Preload window images up to current date */
 var preloadImgs = function() {
-	for (i=0;i<date.getDate();i++) {
-		imgArray[i] = new Image();
-		imgArray[i].src = jsonData[i].img;
-	}
+	$.getScript("js/rot.js", function(){
+		for (i=0;i<date.getDate();i++) {
+			imgArray[i] = new Image();
+			var imgString = "pics/" + rot(jsonData[i].img) + ".png";
+			imgArray[i].src = imgString;
+		}
+	});
 };
 
 /* Tag the already opened windows in main calendar view somehow */
@@ -77,7 +74,7 @@ var tagOpenedWindows = function() {
 	});
 };
 
-/* A big one for generating and displaying the opened calendar window popup */
+/* A biiiiig one for generating and displaying the opened calendar window popup */
 var openWindow = function(day) {
 	var popupTxt = jsonData[day-1].txt;
 	var hasNextWindow = false;

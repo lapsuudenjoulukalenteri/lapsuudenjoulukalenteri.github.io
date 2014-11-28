@@ -69,7 +69,7 @@ footer p {
 	font-size: 11px;
 	color: #ffffff;
 	padding-right: 14px;
-	padding-top: 3px;
+	padding-top: 2px;
 	text-align: right;
 }
 
@@ -85,9 +85,9 @@ footer p {
 .pagetitle p {
 	text-align: center;
 	color: #eeeeee;
-	font-size: 20px;
-	font-family: cursive;
-	text-shadow: 1px 1px #155915;
+	font-size: 22px;
+	font-family: 'Irish Grover', cursive;
+	text-shadow: 2px 2px #155915;
 	margin-top:0px;
 	margin-bottom: -8px;
 	padding-bottom:0px;
