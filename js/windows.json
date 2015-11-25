@@ -1,74 +1,98 @@
 [ 
 	{		"img" : "01_yhzvhxxb",
-			"txt" : "Lumiukko lakaisemaan saapui pihamaan<br>Uuni puilla täyttäkäätten, kohta saunotaan!" 
+			"txt" : "Lumiukko lakaisemaan saapui pihamaan<br>Uuni puilla täyttäkäätten, kohta saunotaan!" ,
+			"txt_se" : "Huvudlöst av snögubben, att peka emot bastun<br>Tomtefar är redan där och lägger ved i farstun" 
 	},
 	{		"img" : "02_fnhan",
-			"txt" : "Käy Tonttu saunan kuumuudessa hiest' ähkimään<br>Välttämätöntä on pian päästä pesemään" 
+			"txt" : "Käy Tonttu saunan kuumuudessa hiest' ähkimään<br>Välttämätöntä on pian päästä pesemään" ,
+			"txt_se" : "Tinar upp sin stela kropp, gör tomtefar nu lättast<br>I supervarma bastubadet - och se hur han svettas!" 
 	},
 	{		"img" : "03_fnhan_cnynn",
-			"txt" : "Kuuset ne kirkkaasti luo loistoaan<br>Ja revontulet pohjan taivaan värjää loimullaan" 
+			"txt" : "Kuuset ne kirkkaasti luo loistoaan<br>Ja revontulet pohjan taivaan värjää loimullaan" ,
+			"txt_se" : "En olycka händer så lätt och tomtefar blev arg<br>När bastun ner till aska brann, han bråka’ med en varg" 
 	},
 	{		"img" : "04_wbhyhcblgn",
-			"txt" : "Puhtaus on puoli ruokaa, Tonttu muistaa sen<br>Käy joulupuuron, kinkun kimppuun riemuin haukaten" 
+			"txt" : "Puhtaus on puoli ruokaa, Tonttu muistaa sen<br>Käy joulupuuron, kinkun kimppuun riemuin haukaten" ,
+			"txt_se" : "I norrskensljus vår tomte satt, en enkel kvällsvard spisa’<br>En snaps blev tre, hans matbord lutade som torn i Pisa" 
 	},
 	{		"img" : "05_gbaggh_uvvugnn",
-			"txt" : "Hiet, liat saivat jäädä saunaan lämpimään<br>nyt on päivä uusi, Tonttu lähtee hiihtämään" 
+			"txt" : "Hiet, liat saivat jäädä saunaan lämpimään<br>nyt on päivä uusi, Tonttu lähtee hiihtämään" ,
+			"txt_se" : "”Se upp i spåret!”, tomten skrek. ”Jag fryser som ett svin!”<br>Han saknade sin bastu så, men mest av allt kamin’" 
 	},
 	{		"img" : "06_wbhyhaxryyb",
-			"txt" : "Helkkää kellot, tiukuset! Riemuun kaikki yhtyy<br>Tonttu punanuttuinen soittamaan kun ryhtyy" 
+			"txt" : "Helkkää kellot, tiukuset! Riemuun kaikki yhtyy<br>Tonttu punanuttuinen soittamaan kun ryhtyy" ,
+			"txt_se" : "Att ringa julen in kräver båd’ muskler och en klocka<br>Men snava ej bland block och taljor så att du blir knockad!" 
 	},
 	{		"img" : "07_yhagn_ghcehggnahg",
-			"txt" : "Lunta tulla tupruttanut on jo puolisääreen<br>Mukavaa ois käpertyä takkatulen ääreen" 
+			"txt" : "Lunta tulla tupruttanut on jo puolisääreen<br>Mukavaa ois käpertyä takkatulen ääreen" ,
+			"txt_se" : "Global uppvärmning bidrar till extremare klimat<br>Snart björnen tomtens huvud får till julklapp på ett fat" 
 	},
 	{		"img" : "08_wbhyhcncrev",
-			"txt" : "Joulun tärkein elementti: joulupaperi<br>loppui kesken. Nyt ois kiva jos ois kaveri!" 
+			"txt" : "Joulun tärkein elementti: joulupaperi<br>loppui kesken. Nyt ois kiva jos ois kaveri!" ,
+			"txt_se" : "Här har man ätit revbensspjäll och skitit i etapper<br>Jag skulle ge min högra hand för lite omslagspapper" 
 	},
 	{		"img" : "09_evfgv",
-			"txt" : "Tonttu laskee kynttilän ja valoa saa risti<br>Mieleen muistuu ystävänsä Lasse, Puttis, Kvisti" 
+			"txt" : "Tonttu laskee kynttilän ja valoa saa risti<br>Mieleen muistuu ystävänsä Lasse, Puttis, Kvisti" ,
+			"txt_se" : "Vår tomte har ett hjärta stort och tänker på de döda<br>Det vita ljuset glömde han så det fick bli det röda" 
 	},
 	{		"img" : "10_gbaggh_gnexxnvyrr",
-			"txt" : "Tontun täytyy tarkkailla, se on tontun työ<br>Tonttu tarkkailee myös silloin kun on musta yö" 
+			"txt" : "Tontun täytyy tarkkailla, se on tontun työ<br>Tonttu tarkkailee myös silloin kun on musta yö" ,
+			"txt_se" : "Av sömnlöshet man blir både frustrerad och sjukt trött<br>Men tomten käkar piller och snart sussar han helt sött" 
 	},
 	{		"img" : "11_uvzzryv",
-			"txt" : "Tonttu pohtii päivän töitä; himmelinkö laittais?<br>onhan päivä huomennakin, ei kai lepo haittais!" 
+			"txt" : "Tonttu pohtii päivän töitä; himmelinkö laittais?<br>onhan päivä huomennakin, ei kai lepo haittais!" ,
+			"txt_se" : "”Shit, snart är julen här och jag har asmycket att fixa!”<br>”Hur ska jag hinna med allt, jag får låna, stjäla, trixa!”" 
 	},
 	{		"img" : "12_beuv",
-			"txt" : "Tuntureiden taakse missä tiekin tietön lie<br>Sangen joutuisasti Tontun orhi oiva vie" 
+			"txt" : "Tuntureiden taakse missä tiekin tietön lie<br>Sangen joutuisasti Tontun orhi oiva vie" ,
+			"txt_se" : "Den late hästen Gnäggis ville gärna byta roller<br>Han spände för med tomten, tömmarna blev hans kontroller" 
 	},
 	{		"img" : "13_fhfv",
-			"txt" : "Vahtikoira haukkuu, Tonttu ulos tuijottaa<br>pakkanenkin paukkuu, joulu tulla jollottaa" 
+			"txt" : "Vahtikoira haukkuu, Tonttu ulos tuijottaa<br>pakkanenkin paukkuu, joulu tulla jollottaa" ,
+			"txt_se" : "I bistra vintern vargen ylar över hela nejden<br>Och tomten i sin stuga undrar ”finns det ej nån hejd än?”" 
 	},
 	{		"img" : "14_yhzvylugl",
-			"txt" : "Joulun aikaan ydinperhe viettää laatuaikaa<br>Yksikään ei riitele, se on joulun taikaa" 
+			"txt" : "Joulun aikaan ydinperhe viettää laatuaikaa<br>Yksikään ei riitele, se on joulun taikaa" ,
+			"txt_se" : "När wifit slutat funka, Netflix med sin frånvaro lyser<br>Så får man sysselsätta sig med ljuslyktor, vår tomte myser" 
 	},
 	{		"img" : "15_xvyggv",
-			"txt" : "Reessä alle porontalja, päälle vilttejä<br>viime vuonna tähän aikaan oltiin kilttejä" 
+			"txt" : "Reessä alle porontalja, päälle vilttejä<br>viime vuonna tähän aikaan oltiin kilttejä" ,
+			"txt_se" : "Tomten skottar mycket snö och karl är för sin kilt<br>Om nio dagar kör han släden under en varm filt" 
 	},
 	{		"img" : "16_cbebg",
-			"txt" : "Joulun aikaan pienimmillä riittää vilinää<br>Jostain kaukaa kuulet poron kellon kilinää" 
+			"txt" : "Joulun aikaan pienimmillä riittää vilinää<br>Jostain kaukaa kuulet poron kellon kilinää" ,
+			"txt_se" : "Lyssna noga, kan du inte höra bjällerklangen?<br>Hur lyckas han, du undrar, och hur har han fått talangen?" 
 	},
 	{		"img" : "17_yvzcch_ebfbyyv",
-			"txt" : "Käy kystä kyllästyttämään ja mieleen hiljaiseen<br>saa limpusta ja rosollista Tonttu tarpeekseen" 
+			"txt" : "Käy kystä kyllästyttämään ja mieleen hiljaiseen<br>saa limpusta ja rosollista Tonttu tarpeekseen" ,
+			"txt_se" : "”Och vad blir årets glöggsmak då? Jag vill bli överraskad!”<br>Han gömde under skynket pomerans och absintflaska" 
 	},
 	{		"img" : "18_gbaggh_ncevxbv",
-			"txt" : "Pukki lähtee lahjoineen ja joululaulut soi<br>Miten ehtii joka paikkaan? Tonttu aprikoi" 
+			"txt" : "Pukki lähtee lahjoineen ja joululaulut soi<br>Miten ehtii joka paikkaan? Tonttu aprikoi" ,
+			"txt_se" : "Inte ens i Stockholm, på fina KTH<br>Har man lyckats lista ut hur han kan göra så..." 
 	},	
 	{		"img" : "19_ninagb",
-			"txt" : "Joulu! Aika hartauden ja vanhain perinteiden<br>saunotaan ja avannossa juostaan kiljuen" 
+			"txt" : "Joulu! Aika hartauden ja vanhain perinteiden<br>saunotaan ja avannossa juostaan kiljuen" ,
+			"txt_se" : "Att bada isvak utan bastu är ej samma sak<br>Men man får taga vad man haver, frysa om sin bak" 
 	},	
 	{		"img" : "20_ynhyh",
-			"txt" : "Lasten laulu raikuu niin kuin ääni enkelten<br>jouluun kuuluu kaipuu, Tonttu tietää myöskin sen" 
+			"txt" : "Lasten laulu raikuu niin kuin ääni enkelten<br>jouluun kuuluu kaipuu, Tonttu tietää myöskin sen" ,
+			"txt_se" : "”Last Christmas” känns rätt fräsch och härlig, då, första advent<br>Men snart har alla blivit kriminella element" 
 	},
 	{		"img" : "21_xbyzr_lbgn",
-			"txt" : "Kolme yötä jouluun on, sai Tonttu selville<br>Tule joulu! Odotus jo käypi hermoille" 
+			"txt" : "Kolme yötä jouluun on, sai Tonttu selville<br>Tule joulu! Odotus jo käypi hermoille" ,
+			"txt_se" : "”Nu kan jag inte vänta längre, kan det ej bli jul snart!”<br>Hur kan tre dagar ta sån tid, är inte direkt full fart!" 
 	},	
 	{		"img" : "22_gbaggh_cvyxxvv",
-			"txt" : "Joulurauhan Suomen Turku meille julistaa<br>Silloin ei saa riehua, ei saa varastaa" 
+			"txt" : "Joulurauhan Suomen Turku meille julistaa<br>Silloin ei saa riehua, ei saa varastaa" ,
+			"txt_se" : "För-julefriden sänker sig, man pilkar i var vak<br>Men rävarna stjäl fiskarna som tomten lagt därbak" 
 	},	
 	{		"img" : "23_wbhyhxnyn",
-			"txt" : "Joulun herkut täyttää mahan, tiukaksi käy vyö<br>Siitä tonttu piittaa ei vaan joulukalaa syö" 
+			"txt" : "Joulun herkut täyttää mahan, tiukaksi käy vyö<br>Siitä tonttu piittaa ei vaan joulukalaa syö" ,
+			"txt_se" : "Han fick dra åt sin svängrem, han fick öppna fisk på burk<br>Det gjorde ej så mycket, lutfisk smakar ändå urk " 
 	},	
 	{		"img" : "24_wbhyhnnggb",
-			"txt" : "On Jouluyö. Sen hiljaisuutta yksin kuunnellen<br>saa Tonttu lahjat rikkahat ja rauhan sydämen" 
+			"txt" : "On Jouluyö. Sen hiljaisuutta yksin kuunnellen<br>saa Tonttu lahjat rikkahat ja rauhan sydämen" ,
+			"txt_se" : "Julaftonsnatten tomten bjöds på solidaritetAv sina bästa vänner som tog hand om honom så<br>Att bördorna blev lättare. Det var en hemlighet, vad som låg i paketet. Vi ses väl nästa år?" 
 	}	
 ]
