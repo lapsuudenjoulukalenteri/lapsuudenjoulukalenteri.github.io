@@ -1,6 +1,7 @@
 /* JavaScript for xmas calendar */
 
 var date = new Date();
+var calLang = "fi";
 var jsonData = new Object();
 var imgArray = [];
 var popupVisible = false;
@@ -9,13 +10,14 @@ var windowsOpenedEarlier = "nnnnnnnnnnnnnnnnnnnnnnnn";
 
 var main = function (){
 	windowsOpenedEarlier = readCookie();
-
+	
 	/* Read calendar window pics and images */
 	$.getJSON("js/windows.json", function(data) {
 			jsonData = data;
 	}).done(preloadImgs);	
 
 	tagOpenedWindows();
+	toggleFlags();
 
 	/* Hover effect on closed calendar windows*/
 	$(".calendarwindow").hover(function() {
@@ -29,12 +31,19 @@ var main = function (){
 		var mm = date.getMonth()+1;
 		var yyyy = date.getFullYear();
 
-		if (tryDate <= dd && mm == 12 && yyyy == 2014) { 
+		if (tryDate <= dd && mm == 12 && yyyy == 2015) { 
 			$(".overlay").fadeIn(500);
-			openWindow(tryDate);
+			openWindow(tryDate);			
 		}
 	});	
 
+	$(".flagwrapper").children('a').each(function (){
+		$(this).click(function(){
+			calLang = $(this).attr("alt");
+			toggleFlags();
+		});
+	}); 
+	
 	/* social sharebuttons */
  	$(".socialwrapper a:first-child").click(function (){
 		openShareWindow("http://twitter.com/share?text=Lapsuuden%20joulukalenteri!&hashtags=joulu,vanha,ankea&url=http%3A%2F%2Flapsuudenjoulukalenteri.github.io");
@@ -74,14 +83,43 @@ var tagOpenedWindows = function() {
 	});
 };
 
+/* Toggle flag opacity for illustrating selected language */
+var toggleFlags = function() {
+	$(".flagwrapper").children('a').each(function (){
+			$(this).fadeTo(0,0.4);			
+	}); 
+	$(".flagwrapper").find("[alt='" + calLang + "']").fadeTo(0,1);
+};
+
 /* A biiiiig one for generating and displaying the opened calendar window popup */
 var openWindow = function(day) {
-	var popupTxt = jsonData[day-1].txt;
+	var popupTxt;
 	var hasNextWindow = false;
 	var hasPrevWindow = false;
+	
+	/* FIXME: tohon kielivalinnat ja sit viittaus oikeeseen json-elementtiin/arvoon */
+	switch (calLang) {
+		case "fi":
+			popupTxt = jsonData[day-1].txt_fi;
+			break;
+		case "se":
+			popupTxt = jsonData[day-1].txt_se;
+			break;
+		case "de":
+			popupTxt = jsonData[day-1].txt_de;
+			break;		
+		case "jp":
+			popupTxt = jsonData[day-1].txt_jp;
+			break;		
+		case "tg":
+			popupTxt = jsonData[day-1].txt_tg;
+			break;					
+		default:
+			popupTxt = jsonData[day-1].txt_fi;
+			break;
+	}
 
 	var html = "<img src='" + imgArray[day-1].src + "' id='windowimage'/>";
-
 		// exclude prev arrow from first calendar pic popup
 		if (day>1) {
 			html += "<div class='arrowleft'><a href='#'><img src='pics/arrow_left.png'/></a></div>";
