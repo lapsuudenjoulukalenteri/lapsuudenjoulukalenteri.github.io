@@ -114,6 +114,9 @@ var openWindow = function(day) {
 		case "tg":
 			popupTxt = jsonData[day-1].txt_tg;
 			break;					
+		case "it":
+			popupTxt = jsonData[day-1].txt_it;
+			break;					
 		default:
 			popupTxt = jsonData[day-1].txt_fi;
 			break;
