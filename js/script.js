@@ -31,7 +31,7 @@ var main = function (){
 		var mm = date.getMonth()+1;
 		var yyyy = date.getFullYear();
 
-		if (tryDate <= dd && mm == 12 && yyyy == 2015) { 
+		if (tryDate <= dd && mm == 12 && yyyy == 2018) { 
 			$(".overlay").fadeIn(500);
 			openWindow(tryDate);			
 		}
